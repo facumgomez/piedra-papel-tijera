@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: var(--color-zinc-50);
+  --color-foreground: var(--color-zinc-900);
+}
+
+/* Forzamos el modo oscuro por clase */
+.dark {
+  --color-background: var(--color-zinc-950);
+  --color-foreground: var(--color-zinc-100);
+}
